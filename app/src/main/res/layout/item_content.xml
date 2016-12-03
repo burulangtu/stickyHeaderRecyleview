@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/yiba_wifi_item_content_rel"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:background="@drawable/item_seletor"
+    android:gravity="center"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/yiba_wifi_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:paddingRight="10dp"
+        android:text="123"
+        android:textColor="@color/content"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="12"
+        android:textColor="@color/grey"
+        android:textSize="10sp" />
+
+</LinearLayout>

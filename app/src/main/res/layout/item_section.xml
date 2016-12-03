@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/yiba_wifi_head_rel"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#ff0">
+
+    <TextView
+        android:id="@+id/bg_middle_grey"
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:background="@color/base" />
+
+    <TextView
+        android:id="@+id/section_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bg_middle_grey"
+        android:background="#FFF"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey" />
+
+    <ImageView
+        android:id="@+id/section_tips"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/section_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/section_title"
+        android:layout_marginRight="15dp"
+        android:background="#fff"
+        android:src="@drawable/tips" />
+</RelativeLayout>
